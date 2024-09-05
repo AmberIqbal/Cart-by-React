@@ -5,6 +5,7 @@ import ProductList from "./components/ProductList";
 import Footer from "./components/Footer";
 import React, { useState } from "react";
 import AddItem from "./components/AddItem";
+import { themeColors } from "./utils/constants";
 
 function App() {
   const initialProductList = [
